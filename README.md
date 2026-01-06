@@ -6,7 +6,6 @@ This project analyzes web traffic logs and detects suspicious behavior using a m
 - Loads CloudWatch traffic data from `CloudWatch_Traffic_Web_Attack.csv`
 - Cleans and selects the key features (bytes, ports, protocol, response codes, rule names, etc.)
 - Encodes categorical fields (LabelEncoder) and scales features (StandardScaler)
-- Builds:
   - **K-Means (k=3)** to group traffic patterns
   - **Isolation Forest** (contamination=0.1) to flag anomalies
   - **Decision Tree (max_depth=5)** to explain anomaly decisions
