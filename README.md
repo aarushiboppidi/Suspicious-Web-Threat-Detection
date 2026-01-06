@@ -1,6 +1,6 @@
 # Suspicious Web Threat Detection using AWS CloudWatch Logs
 
-This project analyzes web traffic logs and detects suspicious behavior using a mix of **clustering**, **anomaly detection**, and an **interpretable classifier**.
+This project analyzes web traffic logs and detects suspicious behavior using a mix of **clustering** and **anomaly detection**.
 
 ## What it does
 - Loads CloudWatch traffic data from `CloudWatch_Traffic_Web_Attack.csv`
